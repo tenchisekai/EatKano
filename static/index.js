@@ -441,10 +441,10 @@ const MODE_NORMAL = 1, MODE_ENDLESS = 2, MODE_PRACTICE = 3;
             SubmitResults();
         }
 
-        if (cps <= 5) return '就这？';
-        if (cps <= 8) return 'TCL';
-        if (cps <= 10)  return 'TQL';
-        if (cps <= 15) return '您';
+        if (cps <= 5) return '叔叔很生气';
+        if (cps <= 8) return '你所热爱的就是你的生活';
+        if (cps <= 10)  return '您就是蒙古上单？';
+        if (cps <= 15) return '您马什么时候4啊？';
         return '人？';
     }
 
